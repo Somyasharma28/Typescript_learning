@@ -1,0 +1,22 @@
+{
+  "name": "typescript_learning",
+  "version": "1.0.0",
+  "description": "A project related to typescript_learning",
+  "main": "jsFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Somyasharma28/Typescript_learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Somyasharma28/Typescript_learning/issues"
+  },
+  "homepage": "https://github.com/Somyasharma28/Typescript_learning#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
