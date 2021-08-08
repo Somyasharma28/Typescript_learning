@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html>
-    <head>
-       <!-- <script src="jsFile.js" defer ></script> -->
-       <script src="tsFile.js" defer ></script>
-    </head>
-    <body>
-        <input type="number" id="num1" placeholder="Number 1" />
-        <input type="number" id="num2" placeholder="Number 2" />
-        <button>Click</button>
-    </body>
+<html lang="en">
+  <head>
+    <title>Tic_Tac_Toe</title>
+    <style>
+      .result {
+        margin-top: 10px;
+        text-align: center;
+        color: red;
+      }
+      .playerInfo {
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+      }
+      .maingameboard {
+          width: 20%;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: rosybrown;
+        padding: 5px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        height: 85px;
+        padding-top: 5px ;
+        width: 90px;
+        font-size: 60px;
+        text-align: center;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maingameboard">
+      <div class="grid-container">
+        <div class="grid-item" id="1" onclick="onBoardClick(this)"></div>
+        <div class="grid-item" id="2" onclick="onBoardClick(this)"></div>
+        <div class="grid-item" id="3" onclick="onBoardClick(this)"></div>
+        <div class="grid-item" id="4" onclick="onBoardClick(this)"></div>
+        <div class="grid-item" id="5" onclick="onBoardClick(this)"></div>
+        <div class="grid-item" id="6" onclick="onBoardClick(this)"></div>
+        <div class="grid-item" id="7" onclick="onBoardClick(this)"></div>
+        <div class="grid-item" id="8" onclick="onBoardClick(this)"></div>
+        <div class="grid-item" id="9" onclick="onBoardClick(this)"></div>
+        </div>
+     <div class="playerInfo" id="playerInfo"> </div>
+     <div class="result" id="result"></div>
+    </div>
+    <script src="./dist/index.js"></script>
+  </body>
 </html>
